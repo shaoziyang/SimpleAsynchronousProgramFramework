@@ -31,7 +31,7 @@ taskname = []
 taskfile = ["task1", "task2"]
 
 # task function name list
-taskname = ["task1.task_blink", "task2.task_inc"]
+taskname = ["task1.task_blink()", "task2.task_inc()"]
 ```
 
 For more detailed usage, please refer to the routines in the [demos folder](demos).
