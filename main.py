@@ -9,7 +9,7 @@ for i in range(len(sapf_cfg.taskfile)):
 
 # create task
 for i in range(len(sapf_cfg.taskname)):
-    exec("asyncio.create_task("+sapf_cfg.taskname[i]+"())")
+    exec("asyncio.create_task("+sapf_cfg.taskname[i]+")")
 
 # start 
 asyncio.Loop.run_forever()
