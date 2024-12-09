@@ -1,5 +1,5 @@
 # main file
-import uasyncio as asyncio
+import asyncio
 import sapf_cfg
 import machine
 
