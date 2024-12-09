@@ -1,1 +1,1 @@
-execfile('sapfmain.py')
+import sapfmain

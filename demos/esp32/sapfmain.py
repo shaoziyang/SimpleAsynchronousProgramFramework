@@ -1,10 +1,8 @@
 # main file
-import uasyncio as asyncio
+import asyncio
 import sapf_cfg
 import machine
 
-# user initialize before asyncio start
-import userinit
 
 # import task files
 for i in range(len(sapf_cfg.taskfile)):

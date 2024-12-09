@@ -1,4 +1,4 @@
-import uasyncio as asyncio
+import asyncio
 
 from global_var import gv
 
