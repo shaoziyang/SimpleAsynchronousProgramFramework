@@ -1,4 +1,10 @@
 # main file
+import micropython
+micropython.alloc_emergency_exception_buf(100)
+
+import gc
+gc.threshold(gc.mem_free() // 4 + gc.mem_alloc())
+
 import asyncio
 import sapf_cfg
 import machine
